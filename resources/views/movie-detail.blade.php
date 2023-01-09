@@ -1,7 +1,8 @@
 @extends('layouts.main')
 
 @section('content')
-    <div class="container">
+<main class="detail-main">
+    <div class="container detail-container">
         <div class="card" >
             <div class="card-body">
               <h5 class="card-title text-black">{{$movie->title}}</h5>
@@ -15,4 +16,5 @@
             </div>
           </div>
     </div>
+</main>
 @endsection
